@@ -12,6 +12,7 @@ import { SharedModule } from "../shared/shared.module";
 import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 import { ComponentsModule } from "../components/components.module";
+import { AccountSettingComponent } from "./account-setting/account-setting.component";
 
 @NgModule({
   declarations: [
@@ -19,12 +20,14 @@ import { ComponentsModule } from "../components/components.module";
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingComponent,
   ],
   imports: [
     CommonModule,
